@@ -26,6 +26,20 @@
                 android:paddingStart="3dp"
                 android:paddingEnd="3dp" />
 
+
+            <Button
+                    android:id="@+id/ad_call_to_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#4CBE99"
+                    android:gravity="center"
+                    android:paddingStart="15dp"
+                    android:paddingTop="0dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="0dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
             <com.google.android.gms.ads.formats.MediaView
                 android:id="@+id/ad_media"
                 android:layout_width="match_parent"
@@ -116,20 +130,6 @@
                         android:layout_gravity="center"
                         android:orientation="vertical"
                         android:paddingTop="10dp">
-
-
-                        <Button
-                            android:id="@+id/ad_call_to_action"
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:background="#4CBE99"
-                            android:gravity="center"
-                            android:paddingStart="15dp"
-                            android:paddingTop="0dp"
-                            android:paddingEnd="15dp"
-                            android:paddingBottom="0dp"
-                            android:textColor="@android:color/white"
-                            android:textSize="16sp" />
 
                         <TextView
                                 android:id="@+id/ad_price"
