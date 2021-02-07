@@ -117,19 +117,6 @@
                         android:orientation="vertical"
                         android:paddingTop="10dp">
 
-                        <TextView
-                            android:id="@+id/ad_price"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:id="@+id/ad_store"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-
-                            android:textSize="12sp" />
 
                         <Button
                             android:id="@+id/ad_call_to_action"
@@ -142,7 +129,20 @@
                             android:paddingEnd="15dp"
                             android:paddingBottom="0dp"
                             android:textColor="@android:color/white"
-                            android:textSize="15sp" />
+                            android:textSize="16sp" />
+
+                        <TextView
+                                android:id="@+id/ad_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp" />
+
+                        <TextView
+                                android:id="@+id/ad_store"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp" />
+
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
